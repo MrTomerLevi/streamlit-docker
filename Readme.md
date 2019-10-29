@@ -1,6 +1,9 @@
 # Streamlit on Docker
 Project docs: https://streamlit.io/docs/
 
+<p align="center">
+  <img src="img/streamlit.png" width="750" title="Example Streamlit App">
+</p>
 
 # Build 
 Clone the repo:
