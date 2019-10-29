@@ -12,9 +12,9 @@ This Docker image is available on Docker Hub:
 ## Running Streamlit docker built-in examples
 You can learn how to use streamlit by exploring 3 scripts (packed inside the docker image):
 
-`docker run -it -p 8501:8501 tomerlevi/streamlit examples/intro.py` <br/>
-`docker run -it -p 8501:8501 tomerlevi/streamlit examples/plot_example.py` <br/>
-`docker run -it -p 8501:8501 tomerlevi/streamlit examples/uber_nyc_data_explorer.py` <br/>
+`docker run -it -p 8501:8501 tomerlevi/streamlit-docker /examples/intro.py` <br/>
+`docker run -it -p 8501:8501 tomerlevi/streamlit-docker /examples/plot_example.py` <br/>
+`docker run -it -p 8501:8501 tomerlevi/streamlit-docker /examples/uber_nyc_data_explorer.py` <br/>
 
 
 ## Running your own streamlit script
