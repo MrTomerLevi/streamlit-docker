@@ -5,7 +5,7 @@ Project docs: https://streamlit.io/docs/
   <img src="img/streamlit.png" width="750" title="Example Streamlit App">
 </p>
 
-# Build 
+## Build 
 Clone the repo:
 `git clone git@github.com:MrTomerLevi/streamlit-docker.git`
 
@@ -19,7 +19,7 @@ Run docker build:
 
 
 
-# Run
+## Run
 `docker run -it -p 8501:8501 -v <local-scripts-folder>:/app tomerlevi/streamlit <relative-path-to-a-script>`
 
 Example:
@@ -29,10 +29,10 @@ Once streamlit is running, open your browser and navigate to: http://localhost:8
 
 *NOTE*: you can open the script you passed (`<relative-path-to-a-script>`) in your favourite text editor and edit it, streamlit will pickup all changes once you refresh your browser tab.
 
-# Streamlit examples
+## Streamlit examples
 You can learn how to use streamlit by exploring 3 scripts (packed inside the docker image):
 
-`docker run -it -p 8501:8501 tomerlevi/streamlit examples/intro.py`
-`docker run -it -p 8501:8501 tomerlevi/streamlit examples/plot_example.py`
-`docker run -it -p 8501:8501 tomerlevi/streamlit examples/uber_nyc_data_explorer.py`
+`docker run -it -p 8501:8501 tomerlevi/streamlit examples/intro.py` <br/>
+`docker run -it -p 8501:8501 tomerlevi/streamlit examples/plot_example.py` <br/>
+`docker run -it -p 8501:8501 tomerlevi/streamlit examples/uber_nyc_data_explorer.py` <br/>
 
