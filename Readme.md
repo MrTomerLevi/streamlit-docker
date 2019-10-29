@@ -17,7 +17,7 @@ You can learn how to use streamlit by exploring 3 scripts (packed inside the doc
 `docker run -it -p 8501:8501 tomerlevi/streamlit examples/uber_nyc_data_explorer.py` <br/>
 
 
-## Running your ouwn streamlit script
+## Running your own streamlit script
 `docker run -it -p 8501:8501 -v <local-scripts-folder>:/app tomerlevi/streamlit <relative-path-to-a-script>`
 
 Example:
