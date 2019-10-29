@@ -38,7 +38,7 @@ Change dir into the project:
 *Optional:*  You can add your required PyPi packages to the `requirements.txt`
 
 Run docker build:
-`docker build -t tomerlevi/streamlit .`
+`docker build -t tomerlevi/streamlit-docker .`
 
 
 
