@@ -25,7 +25,7 @@ Example:
 
 Once streamlit is running, open your browser and navigate to: http://localhost:8501
 
-*NOTE*: you can open the script you passed (`<relative-path-to-a-script>`) in your favourite text editor and edit it, streamlit will pickup all changes once you refresh your browser tab.
+*NOTE*: you can open the script you passed (`<relative-path-to-a-script>`) in your favorite text editor and edit it, streamlit will pickup all changes once you refresh your browser tab.
 
 
 ## Build 
